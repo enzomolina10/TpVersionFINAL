@@ -14,15 +14,15 @@ $mensaje = "Hola, yo soy " . $persona->getNombre() . " " . $persona->getApellido
     <meta charset="UTF-8">
     <title>Mostrar Datos</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlazar tu archivo CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <?php include_once "../Estructura/header.php" ?>
     <?php
     echo $mensaje;
     ?>
     <a href="../Ej3.php">Volver</a>
-    <?php include_once "../Estructura/footer.php" ?>
+    
 
 </body>
 

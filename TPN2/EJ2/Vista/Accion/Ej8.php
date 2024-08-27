@@ -16,14 +16,15 @@ $valorBoleto = $boleto->calcularBoleto();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <?php include_once "../Estructura/header.php" ?>
+    
     <?php
     echo "<p> El valor del boleto es: " . $valorBoleto . "</p>";
     ?>
-    <?php include_once "../Estructura/footer.php" ?>
+    
 
 </body>
 

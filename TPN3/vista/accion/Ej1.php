@@ -35,7 +35,7 @@ if ($respuesta == 0) {
 <html lang="es">
 
 <head>
-    <?php include_once "../Estructura/header.php" ?>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,20 +54,14 @@ if ($respuesta == 0) {
 
 <body>
     <header class="display-1 text-center">
-        <h1>MENU PRINCIPAL DE TRABAJOS PRACTICOS - PWD</h1>
-        <h2 class="display-2">GRUPO N° 12
-        </h2>
+        
     </header>
     <?php echo "<p>" . $mensaje . "</p>"; ?>
 
     <a href="../Ej1.php">Volver</a>
 
-    <footer class="text-center footer-style">
-        <div class="col-md-12 footer-col">
-            <h3>Integrantes: Russo Florencia, Molina Enzo, Gallardo Gabriel, Fernandez Rocio.</h3>
-        </div>
-    </footer>
-    <?php include_once "../Estructura/footer.php" ?>
+   
+    
 
 </body>
 

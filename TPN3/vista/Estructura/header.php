@@ -8,13 +8,13 @@
 
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/TPN3/vista/Estructura/Estructura-css/style.css">
+	<link rel="stylesheet" href="Estructura/Estructura-css/style.css">
 </head>
 
 <body>
 	<header  id="header-cabecera">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand" href="/menu.php">Volver al menu principal.</a>
+			<a class="navbar-brand" href="../../menu.php">Volver al menu principal.</a>
 		</nav>
 	</header>
 	<main class="container my-5">

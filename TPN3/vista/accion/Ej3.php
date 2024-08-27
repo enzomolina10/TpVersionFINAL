@@ -56,7 +56,7 @@ $mensaje .= "<p><b>Restricciones: </b> " . $pelicula->getRestricciones() . "</p>
 </head>
 
 <body>
-	<?php include_once "../Estructura/header.php" ?>
+
 	<div class="container">
 		<header>
 			<label class="titulo">La película introducida es
@@ -77,7 +77,7 @@ $mensaje .= "<p><b>Restricciones: </b> " . $pelicula->getRestricciones() . "</p>
 		</div>
 	</div>
 
-	<?php include_once "../Estructura/footer.php" ?>
+
 </body>
 
 </html>

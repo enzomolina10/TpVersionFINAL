@@ -12,23 +12,26 @@ $mensaje = $objNumero->devolverSigno();
 
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
-    <?php include_once "../Estructura/header.php"; ?>
-    <p><?php echo 'El número ' .
-            $objNumero->getNumero() .
-            ' es ' .
-            $mensaje .
-            '.'; ?></p>
-    <a href="../Ej1.php">Volver</a>
-    <?php include_once "../Estructura/footer.php"; ?>
+    
+    <main class="container my-5">
+        <p><?php echo 'El número ' .
+                $objNumero->getNumero() .
+                ' es ' .
+                $mensaje .
+                '.'; ?></p>
+        <a href="../Ej1.php">Volver</a>
+        
 
 </body>
-
-</html>

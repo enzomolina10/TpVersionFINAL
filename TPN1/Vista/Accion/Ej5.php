@@ -23,18 +23,17 @@ $mensaje = "<p>Hola, yo soy " . $persona->getNombre() . " " . $persona->getApell
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <?php include_once "../Estructura/header.php"; ?>
 
     <?php
     echo $mensaje . "<br>";
     ?>
 
     <a href="../Ej5.php">Volver</a>
-    <?php include_once "../Estructura/footer.php"; ?>
+    
 </body>
 
 </html>

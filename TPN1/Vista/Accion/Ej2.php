@@ -20,6 +20,7 @@ $mensaje = $objHoras->darHoras();
 <head>
     <meta charset="UTF-8">
     <title>Resultado de Horas</title>
+    <link rel="stylesheet" href="../../../TPN1/Vista/Estructura/Estructura-css/style.css"> 
 </head>
 
 <body>

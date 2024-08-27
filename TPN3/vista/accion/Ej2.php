@@ -42,13 +42,12 @@ if ($respuesta == 0) {
 </head>
 
 <body>
-    <?php include_once "../Estructura/header.php" ?>
+    
     <?php
     echo $mensaje;
     ?>
 
     <a href="../Ej2.php">Volver</a>
-    <?php include_once "../Estructura/footer.php" ?>
 
 </body>
 
